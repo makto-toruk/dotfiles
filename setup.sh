@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-DOTFILES_DIR=~/dev/dotfiles
+DOTFILES_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # List of dotfiles to symlink
 FILES=(

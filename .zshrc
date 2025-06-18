@@ -1,4 +1,4 @@
-# Set up git prompt and prompt
+# Set up git-aware prompt
 if [[ -f ~/.git-prompt.sh ]]; then
   source ~/.git-prompt.sh
   setopt PROMPT_SUBST
